@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="shortcut icon" href="sources/c.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+    <div class="title"><h1>Area Calculator</h1></div>
+    <div class="desc"><h2>The output will be area of a rectangle with the following side lengths:</h1></div>
+        <div id="length"> <label for="len"> Enter length in cm:</label><input type="number" id="len"  autocomplete="off" min="0"/></div>
+        
+        <div id="width"> <label for="wid"> Enter length in cm:</label><input type="number" id="wid"  autocomplete="off" min="0"/></div>
+        
+        <div id="length1"> <label for="len1"> Enter length in ft:</label><input type="number" id="len1"  autocomplete="off" min="0"/>
+            <label for="len2"> inches:</label><input type="number" id="len2"  autocomplete="off" min="0"/></div>
+
+            <div id="width1"> <label for="wid1"> Enter width in ft:</label><input type="number" id="wid1" autocomplete="off" min="0"/>
+                <label for="wid2"> inches:</label><input type="number" id="wid2"  autocomplete="off" min="0"/></div>
+        
+        <div id="toggle"><button id="feet">Switch to feet</button></div>
+        <div id="toggle1"><button id="feet1">Switch to cm</button></div>
+        <div id="submit"><button id="sub">Submit</button></div>
+        <div id="submit1"><button id="sub1">Submit</button></div>
+        <div id="result">
+            <span id="res">The area is  :</span><span id="res1">cm^2</span>
+            <button id="close">X</button>
+        </div> 
+    <script src="app.js"></script>
+</body>
+</html>
